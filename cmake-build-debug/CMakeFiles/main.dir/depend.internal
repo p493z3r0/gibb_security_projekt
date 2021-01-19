@@ -5031,6 +5031,9 @@ CMakeFiles/main.dir/core/core_controller.cpp.o
  /usr/local/include/pplx/pplxlinux.h
  /usr/local/include/pplx/pplxtasks.h
  /usr/local/include/pplx/pplxwin.h
+CMakeFiles/main.dir/core/logger.cpp.o
+ ../core/include/logger.h
+ /Users/dominicjarmann/CLionProjects/SecModulBackend/core/logger.cpp
 CMakeFiles/main.dir/core/network.cpp.o
  /Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/common.h
  /Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/network.h
@@ -7833,6 +7836,7 @@ CMakeFiles/main.dir/main.cpp.o
  ../core/include/controller.h
  ../core/include/core_controller.h
  ../core/include/interrupt_handler.h
+ ../core/include/logger.h
  ../core/include/runtime_utils.h
  /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.h
  /Users/dominicjarmann/CLionProjects/SecModulBackend/main.cpp

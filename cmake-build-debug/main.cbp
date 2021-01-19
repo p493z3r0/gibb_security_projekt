@@ -784,6 +784,9 @@
 		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/runtime_utils.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/logger.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/network.cpp">
 			<Option target="main"/>
 		</Unit>

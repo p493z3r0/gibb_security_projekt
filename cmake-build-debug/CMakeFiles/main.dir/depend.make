@@ -5031,6 +5031,9 @@ CMakeFiles/main.dir/core/core_controller.cpp.o: /usr/local/include/pplx/pplxlinu
 CMakeFiles/main.dir/core/core_controller.cpp.o: /usr/local/include/pplx/pplxtasks.h
 CMakeFiles/main.dir/core/core_controller.cpp.o: /usr/local/include/pplx/pplxwin.h
 
+CMakeFiles/main.dir/core/logger.cpp.o: ../core/include/logger.h
+CMakeFiles/main.dir/core/logger.cpp.o: ../core/logger.cpp
+
 CMakeFiles/main.dir/core/network.cpp.o: ../core/include/common.h
 CMakeFiles/main.dir/core/network.cpp.o: ../core/include/network.h
 CMakeFiles/main.dir/core/network.cpp.o: ../core/network.cpp
@@ -7832,6 +7835,7 @@ CMakeFiles/main.dir/core/network.cpp.o: /usr/local/include/boost/winapi/wait_con
 CMakeFiles/main.dir/main.cpp.o: ../core/include/controller.h
 CMakeFiles/main.dir/main.cpp.o: ../core/include/core_controller.h
 CMakeFiles/main.dir/main.cpp.o: ../core/include/interrupt_handler.h
+CMakeFiles/main.dir/main.cpp.o: ../core/include/logger.h
 CMakeFiles/main.dir/main.cpp.o: ../core/include/runtime_utils.h
 CMakeFiles/main.dir/main.cpp.o: ../app/controllers/user/UserController.h
 CMakeFiles/main.dir/main.cpp.o: ../main.cpp

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/app/models/UserModel.cpp.o"
   "CMakeFiles/main.dir/app/services/user/user_service.cpp.o"
   "CMakeFiles/main.dir/core/core_controller.cpp.o"
+  "CMakeFiles/main.dir/core/logger.cpp.o"
   "CMakeFiles/main.dir/core/network.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o"
   "main"

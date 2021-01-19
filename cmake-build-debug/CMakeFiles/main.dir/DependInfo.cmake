@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/models/UserModel.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/services/user/user_service.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/core/core_controller.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/core/core_controller.cpp.o"
+  "/Users/dominicjarmann/CLionProjects/SecModulBackend/core/logger.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/core/logger.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/core/network.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/core/network.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/main.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
   )

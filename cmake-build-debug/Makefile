@@ -455,6 +455,33 @@ core/core_controller.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/core/core_controller.cpp.s
 .PHONY : core/core_controller.cpp.s
 
+core/logger.o: core/logger.cpp.o
+
+.PHONY : core/logger.o
+
+# target to build an object file
+core/logger.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/core/logger.cpp.o
+.PHONY : core/logger.cpp.o
+
+core/logger.i: core/logger.cpp.i
+
+.PHONY : core/logger.i
+
+# target to preprocess a source file
+core/logger.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/core/logger.cpp.i
+.PHONY : core/logger.cpp.i
+
+core/logger.s: core/logger.cpp.s
+
+.PHONY : core/logger.s
+
+# target to generate assembly for a file
+core/logger.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/core/logger.cpp.s
+.PHONY : core/logger.cpp.s
+
 core/network.o: core/network.cpp.o
 
 .PHONY : core/network.o
@@ -548,6 +575,9 @@ help:
 	@echo "... core/core_controller.o"
 	@echo "... core/core_controller.i"
 	@echo "... core/core_controller.s"
+	@echo "... core/logger.o"
+	@echo "... core/logger.i"
+	@echo "... core/logger.s"
 	@echo "... core/network.o"
 	@echo "... core/network.i"
 	@echo "... core/network.s"
