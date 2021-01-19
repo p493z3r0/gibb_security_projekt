@@ -13,10 +13,12 @@ using namespace http;
 using namespace cfx;
 
 void UserController::initRestOpHandlers() {
+
     _listener.support(methods::GET, std::bind(&UserController::handleGet, this, std::placeholders::_1));
     _listener.support(methods::PUT, std::bind(&UserController::handlePut, this, std::placeholders::_1));
     _listener.support(methods::POST, std::bind(&UserController::handlePost, this, std::placeholders::_1));
     _listener.support(methods::DEL, std::bind(&UserController::handleDelete, this, std::placeholders::_1));
+    _listener.support(methods::OPTIONS, std::bind(&UserController::handleOptions, this, std::placeholders::_1));
 }
 
 json::value UserController::responseNotImpl(const http::method &method) {
@@ -38,6 +40,21 @@ json::value UserController::tokenResponse(std::string token) {
     return response;
 }
 
+
+void UserController::handleOptions(http_request message) {
+    std::cout << "handle options" << std::endl;
+    http_response response(status_codes::OK);
+    response.headers().add(U("access-control-allow-origin"), U("http://localhost:4200"));
+    response.headers().add(U("Access-Control-Allow-Credentials"), U("true"));
+    response.headers().add(U("Access-Control-Allow-Methods"), U("GET, HEAD, OPTIONS, POST, PUT"));
+    response.headers().add(U("Access-Control-Allow-Headers"), U("Origin, X-Requested-With, content-type, Accept, Authorization"));
+
+    message.reply(response);
+}
+
+void add_cors_header(http_response* response){
+    response->headers().add(U("Access-Control-Allow-Origin"), U("*"));
+}
 
 void UserController::handleGet(http_request message) {
     auto path = requestPath(message);
@@ -87,10 +104,16 @@ void UserController::handleGet(http_request message) {
 }
 
 void UserController::handlePost(http_request message) {
+
+    std::cout << "handle_post" << std::endl;
     auto user = UserModel::fromJson(message.content_ready().get().extract_json(true).get());
 
     user_service::create_user(*user);
-    message.reply(status_codes::Created, user->toJson());
+
+    http_response response(status_codes::Created);
+    add_cors_header(&response);
+    response.set_body(user->toJson());
+    message.reply(response);
 }
 
 void UserController::handleDelete(http_request message) {

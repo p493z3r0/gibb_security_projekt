@@ -19,6 +19,7 @@ namespace cfx {
         virtual void handlePost(http_request message) = 0;
         virtual void handlePut(http_request message) = 0;
         virtual void handleDelete(http_request message) = 0;
+        virtual void handleOptions(http_request message) = 0;
         // Should be all Methods needed in this project
     };
 }

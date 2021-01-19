@@ -13,7 +13,6 @@ UserModel *UserModel::fromJson(web::json::value value) {
     password = bcrypt::generateHash(password, 10);
 
     UserModel *model = new UserModel();
-    model->set_uuid(value.as_object().at("uuid").as_string());
     model->set_email(value.as_object().at("email").as_string());
     model->set_password(password);
     model->set_name(value.as_object().at("name").as_string());

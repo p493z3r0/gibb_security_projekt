@@ -5,9 +5,14 @@
 #include "user_service.h"
 #include <pqxx/pqxx>
 #include <jwt/jwt.hpp>
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
+#include <boost/uuid/uuid_io.hpp>
 
 const auto SECRET = "oiwucdoqjidiochjoiwjaiodjweoqdijowqe";
 using namespace jwt::params;
+using namespace boost::uuids;
+
 
 UserModel *user_service::create_user(UserModel &user) {
     pqxx::connection *C = new pqxx::connection("postgres://postgres:1234@localhost:5433/security");
@@ -16,7 +21,10 @@ UserModel *user_service::create_user(UserModel &user) {
 
     const auto select_statement = "SELECT * FROM users where email = '" + W.esc(user.get_email()) + "'";
 
-    std::cout << select_statement << std::endl;
+    boost::uuids::random_generator_pure gen;
+    boost::uuids::uuid uuid = gen();
+
+    user.set_uuid(boost::uuids::to_string(uuid));
     pqxx::result R{W.exec(select_statement)};
     if (R.size() > 0) {
         std::cout << "User already exists" << std::endl;

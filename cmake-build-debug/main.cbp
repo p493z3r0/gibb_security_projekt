@@ -775,6 +775,9 @@
 		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/interrupt_handler.h">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/logger.h">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/network.h">
 			<Option target="main"/>
 		</Unit>
