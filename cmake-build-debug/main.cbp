@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="main"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\include\;CMake Files\include\cpp-jwt\;CMake Files\include\cpp-jwt\cmake\;CMake Files\include\cpp-jwt\tests\;CMake Files\include\cpp-jwt\examples\;CMake Files\include\libpqxx\;CMake Files\include\libpqxx\cmake\;CMake Files\include\libpqxx\config-tests\;CMake Files\include\libpqxx\src\;CMake Files\include\libpqxx\include\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\include\;CMake Files\cmake-build-debug\include\libpqxx\;CMake Files\cmake-build-debug\include\libpqxx\include\;CMake Files\cmake-build-debug\include\libpqxx\include\pqxx\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\cpprestsdk\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPPREST_FORCE_HTTP_CLIENT_ASIO"/>
+					<Add option="-DCPPREST_FORCE_HTTP_LISTENER_ASIO"/>
+					<Add option="-DCPPREST_NO_SSL_LEAK_SUPPRESS"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPPREST_FORCE_HTTP_CLIENT_ASIO"/>
+					<Add option="-DCPPREST_FORCE_HTTP_LISTENER_ASIO"/>
+					<Add option="-DCPPREST_NO_SSL_LEAK_SUPPRESS"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="library_symlink">
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 library_symlink"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pqxx">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/libpqxx-7.0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/postgresql/server"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 pqxx"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pqxx/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/libpqxx-7.0.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/postgresql/server"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 pqxx/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_object">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_object"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_object/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_object" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_object/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_rsa">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_rsa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_rsa"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_rsa/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_rsa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_rsa/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode_verifiy">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode_verifiy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode_verifiy"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode_verifiy/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode_verifiy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode_verifiy/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode_verifiy_with_exception">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode_verifiy_with_exception" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode_verifiy_with_exception"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_decode_verifiy_with_exception/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_decode_verifiy_with_exception" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_decode_verifiy_with_exception/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_encode">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_encode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_encode"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_encode/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_encode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_encode/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_es">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_es" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_es"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_jwt_es/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/test_jwt_es" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 test_jwt_es/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex3_rsa">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex3_rsa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex3_rsa"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex3_rsa/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex3_rsa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex3_rsa/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex2">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex2/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex1">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple_ex1/fast">
+				<Option output="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/simple_ex1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCPP_JWT_USE_VENDORED_NLOHMANN_JSON"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/Bcrypt.cpp/include"/>
+					<Add directory="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opt/openssl@1.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 simple_ex1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/cpp-jwt/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/core_controller.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/common.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/controller.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/core_controller.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/interrupt_handler.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/network.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/include/runtime_utils.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/core/network.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/examples/simple_ex1.cc">
+			<Option target="simple_ex1"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/examples/simple_ex2.cc">
+			<Option target="simple_ex2"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/examples/simple_ex3_rsa.cc">
+			<Option target="simple_ex3_rsa"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_decode.cc">
+			<Option target="test_jwt_decode"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_decode_verifiy.cc">
+			<Option target="test_jwt_decode_verifiy"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_decode_verifiy_with_exception.cc">
+			<Option target="test_jwt_decode_verifiy_with_exception"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_encode.cc">
+			<Option target="test_jwt_encode"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_es.cc">
+			<Option target="test_jwt_es"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_object.cc">
+			<Option target="test_jwt_object"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/test_jwt_rsa.cc">
+			<Option target="test_jwt_rsa"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/array.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/binarystring.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/connection.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/cursor.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/encodings.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/errorhandler.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/except.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/field.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/largeobject.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/notification.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/pipeline.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/result.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/robusttransaction.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/row.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/sql_cursor.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/statement_parameters.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/strconv.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/stream_from.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/stream_to.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/subtransaction.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/transaction.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/transaction_base.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/util.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/version.cxx">
+			<Option target="pqxx"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\cpp-jwt\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\include\cpp-jwt\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\cpp-jwt\tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/cpp-jwt/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\cpp-jwt\examples\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\libpqxx\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/libpqxx.pc.in">
+			<Option virtualFolder="CMake Files\include\libpqxx\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/cmake/config.cmake">
+			<Option virtualFolder="CMake Files\include\libpqxx\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/cmake/libpqxx-config.cmake">
+			<Option virtualFolder="CMake Files\include\libpqxx\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/charconv_float.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/charconv_int.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/cxa_demangle.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/gcc_pure.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/gcc_visibility.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/strnlen.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/strnlen_s.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/config-tests/thread_local.cxx">
+			<Option virtualFolder="CMake Files\include\libpqxx\config-tests\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\libpqxx\src\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/include/libpqxx/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\libpqxx\include\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/include/libpqxx/include/pqxx/config_cmake.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\include\libpqxx\include\pqxx\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/BoostDetectToolset-1.75.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/cpprestsdk/cpprestsdk-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\cpprestsdk\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/cpprestsdk/cpprestsdk-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\cpprestsdk\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/cpprestsdk/cpprestsdk-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\cpprestsdk\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/cpprestsdk/cpprestsdk-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\cpprestsdk\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/Boost-1.75.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_headers-1.75.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/boost_random-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/boost_random-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_random-1.75.0/libboost_random-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_random-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_system-1.75.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_thread-1.75.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_thread-1.75.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_thread-1.75.0/libboost_thread-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_thread-1.75.0/libboost_thread-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_filesystem-1.75.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/boost_chrono-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/boost_chrono-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/libboost_chrono-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/libboost_chrono-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/libboost_chrono-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_chrono-1.75.0/libboost_chrono-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_chrono-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_atomic-1.75.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_atomic-1.75.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_atomic-1.75.0/libboost_atomic-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_atomic-1.75.0/libboost_atomic-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/libboost_date_time-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/libboost_date_time-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_date_time-1.75.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/libboost_regex-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/libboost_regex-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/../../../../usr/local/lib/cmake/boost_regex-1.75.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.75.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

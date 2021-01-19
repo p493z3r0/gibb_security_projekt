@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/include/Bcrypt.cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/include/cpp-jwt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/include/cpprestsdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/include/fastpbkdf2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/include/libbcrypt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/include/libpqxx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/Bcrypt.cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/cpprestsdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/cryptopp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/fastpbkdf2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tools/libbcrypt" vcs="Git" />
+  </component>
+</project>

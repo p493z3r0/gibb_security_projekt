@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="main" targetName="main" />
+      <config projectName="main" targetName="test_jwt_decode_verifiy_with_exception" />
+      <config projectName="main" targetName="simple_ex1" />
+      <config projectName="main" targetName="simple_ex2" />
+      <config projectName="main" targetName="test_jwt_rsa" />
+      <config projectName="main" targetName="pqxx" />
+      <config projectName="main" targetName="test_jwt_object" />
+      <config projectName="main" targetName="test_jwt_decode_verifiy" />
+      <config projectName="main" targetName="test_jwt_encode" />
+      <config projectName="main" targetName="test_jwt_es" />
+      <config projectName="main" targetName="simple_ex3_rsa" />
+      <config projectName="main" targetName="library_symlink" />
+      <config projectName="main" targetName="test_jwt_decode" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5fe481d7-d88a-482c-9e8f-4e1673b2e2dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/include/cpp-jwt/include/jwt/jwt.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpp-jwt/include/jwt/jwt.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth1.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth2.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/libs/websocketpp/websocketpp/close.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/libs/websocketpp/websocketpp/close.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/tests/common/TestRunner/vs14.android/TestRunner.android.Packaging/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/tests/common/TestRunner/vs14.android/TestRunner.android.Packaging/build.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/include/cpp-jwt" />
+  </component>
+  <component name="ProjectId" id="1nFt1zCrmZPopbFL27yvwGfAYRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.main">
+    <configuration name="test_jwt_decode" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_decode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_decode" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_decode_verifiy" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_decode_verifiy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_decode_verifiy" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_decode_verifiy_with_exception" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_decode_verifiy_with_exception" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_decode_verifiy_with_exception" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_encode" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_encode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_encode" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_es" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_es" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_es" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_object" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_object" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_object" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_jwt_rsa" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="test_jwt_rsa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="test_jwt_rsa" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="library_symlink" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="library_symlink" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pqxx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="pqxx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple_ex1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="simple_ex1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="simple_ex1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple_ex2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="simple_ex2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="simple_ex2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple_ex3_rsa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="main" TARGET_NAME="simple_ex3_rsa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="main" RUN_TARGET_NAME="simple_ex3_rsa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.main" />
+      <item itemvalue="CMake Application.simple_ex1" />
+      <item itemvalue="CMake Application.simple_ex2" />
+      <item itemvalue="CMake Application.simple_ex3_rsa" />
+      <item itemvalue="CMake Application.library_symlink" />
+      <item itemvalue="CMake Application.pqxx" />
+      <item itemvalue="Google Test.test_jwt_decode" />
+      <item itemvalue="Google Test.test_jwt_decode_verifiy" />
+      <item itemvalue="Google Test.test_jwt_decode_verifiy_with_exception" />
+      <item itemvalue="Google Test.test_jwt_encode" />
+      <item itemvalue="Google Test.test_jwt_es" />
+      <item itemvalue="Google Test.test_jwt_object" />
+      <item itemvalue="Google Test.test_jwt_rsa" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fe481d7-d88a-482c-9e8f-4e1673b2e2dd" name="Default Changelist" comment="" />
+      <created>1610997455859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610997455859</updated>
+      <workItem from="1610997458158" duration="30999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom" timestamp="1611078242924">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611078242924" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513394" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570183" />
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827661" />
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.969@1680.25.3840.2135" timestamp="1611060756117" />
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611066805976" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543126" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430252" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center" timestamp="1611078242922">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611078242922" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513392" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570181" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.969@1680.25.3840.2135" timestamp="1611060756115" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611066805975" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543124" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430250" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left" timestamp="1611078242921">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611078242919" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513390" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570178" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.969@1680.25.3840.2135" timestamp="1611060756113" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611066805974" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543118" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430249" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right" timestamp="1611078242923">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611078242923" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513393" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570182" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.969@1680.25.3840.2135" timestamp="1611060756116" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611066805975" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543125" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430251" />
+    <state width="3798" height="807" key="GridCell.Tab.1.bottom" timestamp="1611072125587">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="807" key="GridCell.Tab.1.bottom/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611072125587" />
+    <state width="3798" height="807" key="GridCell.Tab.1.center" timestamp="1611072125585">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="807" key="GridCell.Tab.1.center/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611072125585" />
+    <state width="3798" height="807" key="GridCell.Tab.1.left" timestamp="1611072125584">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="807" key="GridCell.Tab.1.left/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611072125584" />
+    <state width="3798" height="807" key="GridCell.Tab.1.right" timestamp="1611072125586">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3798" height="807" key="GridCell.Tab.1.right/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611072125586" />
+    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup" timestamp="1611067754379">
+      <screen x="1680" y="0" width="3840" height="2160" />
+    </state>
+    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611067754379" />
+    <state x="4014" y="540" width="670" height="676" key="search.everywhere.popup/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611050415468" />
+    <state x="4014" y="540" width="670" height="676" key="search.everywhere.popup/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611064780611" />
+  </component>
+</project>

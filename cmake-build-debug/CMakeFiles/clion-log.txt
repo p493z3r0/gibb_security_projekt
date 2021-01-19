@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/dominicjarmann/CLionProjects/SecModulBackend
+-- Found OpenSSL keg installed by Homebrew at /usr/local/opt/openssl@1.1
+>>>> find_library(CoreFoundation): /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreFoundation.framework
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating config.h
+-- Generating config.h - done
+/Users/dominicjarmann/CLionProjects/SecModulBackend
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug
