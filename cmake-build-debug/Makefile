@@ -347,59 +347,59 @@ simple_ex1/fast:
 	$(MAKE) -f include/cpp-jwt/examples/CMakeFiles/simple_ex1.dir/build.make include/cpp-jwt/examples/CMakeFiles/simple_ex1.dir/build
 .PHONY : simple_ex1/fast
 
-app/controllers/user/UserController.o: app/controllers/user/UserController.cpp.o
+app/controllers/user/user_controller.o: app/controllers/user/user_controller.cpp.o
 
-.PHONY : app/controllers/user/UserController.o
-
-# target to build an object file
-app/controllers/user/UserController.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o
-.PHONY : app/controllers/user/UserController.cpp.o
-
-app/controllers/user/UserController.i: app/controllers/user/UserController.cpp.i
-
-.PHONY : app/controllers/user/UserController.i
-
-# target to preprocess a source file
-app/controllers/user/UserController.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/UserController.cpp.i
-.PHONY : app/controllers/user/UserController.cpp.i
-
-app/controllers/user/UserController.s: app/controllers/user/UserController.cpp.s
-
-.PHONY : app/controllers/user/UserController.s
-
-# target to generate assembly for a file
-app/controllers/user/UserController.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/UserController.cpp.s
-.PHONY : app/controllers/user/UserController.cpp.s
-
-app/models/UserModel.o: app/models/UserModel.cpp.o
-
-.PHONY : app/models/UserModel.o
+.PHONY : app/controllers/user/user_controller.o
 
 # target to build an object file
-app/models/UserModel.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/UserModel.cpp.o
-.PHONY : app/models/UserModel.cpp.o
+app/controllers/user/user_controller.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o
+.PHONY : app/controllers/user/user_controller.cpp.o
 
-app/models/UserModel.i: app/models/UserModel.cpp.i
+app/controllers/user/user_controller.i: app/controllers/user/user_controller.cpp.i
 
-.PHONY : app/models/UserModel.i
+.PHONY : app/controllers/user/user_controller.i
 
 # target to preprocess a source file
-app/models/UserModel.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/UserModel.cpp.i
-.PHONY : app/models/UserModel.cpp.i
+app/controllers/user/user_controller.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.i
+.PHONY : app/controllers/user/user_controller.cpp.i
 
-app/models/UserModel.s: app/models/UserModel.cpp.s
+app/controllers/user/user_controller.s: app/controllers/user/user_controller.cpp.s
 
-.PHONY : app/models/UserModel.s
+.PHONY : app/controllers/user/user_controller.s
 
 # target to generate assembly for a file
-app/models/UserModel.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/UserModel.cpp.s
-.PHONY : app/models/UserModel.cpp.s
+app/controllers/user/user_controller.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.s
+.PHONY : app/controllers/user/user_controller.cpp.s
+
+app/models/user_model.o: app/models/user_model.cpp.o
+
+.PHONY : app/models/user_model.o
+
+# target to build an object file
+app/models/user_model.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/user_model.cpp.o
+.PHONY : app/models/user_model.cpp.o
+
+app/models/user_model.i: app/models/user_model.cpp.i
+
+.PHONY : app/models/user_model.i
+
+# target to preprocess a source file
+app/models/user_model.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/user_model.cpp.i
+.PHONY : app/models/user_model.cpp.i
+
+app/models/user_model.s: app/models/user_model.cpp.s
+
+.PHONY : app/models/user_model.s
+
+# target to generate assembly for a file
+app/models/user_model.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/app/models/user_model.cpp.s
+.PHONY : app/models/user_model.cpp.s
 
 app/services/user/user_service.o: app/services/user/user_service.cpp.o
 
@@ -563,12 +563,12 @@ help:
 	@echo "... simple_ex3_rsa"
 	@echo "... simple_ex2"
 	@echo "... simple_ex1"
-	@echo "... app/controllers/user/UserController.o"
-	@echo "... app/controllers/user/UserController.i"
-	@echo "... app/controllers/user/UserController.s"
-	@echo "... app/models/UserModel.o"
-	@echo "... app/models/UserModel.i"
-	@echo "... app/models/UserModel.s"
+	@echo "... app/controllers/user/user_controller.o"
+	@echo "... app/controllers/user/user_controller.i"
+	@echo "... app/controllers/user/user_controller.s"
+	@echo "... app/models/user_model.o"
+	@echo "... app/models/user_model.i"
+	@echo "... app/models/user_model.s"
 	@echo "... app/services/user/user_service.o"
 	@echo "... app/services/user/user_service.i"
 	@echo "... app/services/user/user_service.s"

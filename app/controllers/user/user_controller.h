@@ -2,8 +2,8 @@
 // Created by Dominic Järmann on 19/01/2021.
 //
 
-#ifndef MAIN_USERCONTROLLER_H
-#define MAIN_USERCONTROLLER_H
+#ifndef MAIN_USER_CONTROLLER_H
+#define MAIN_USER_CONTROLLER_H
 
 #pragma once
 
@@ -11,11 +11,11 @@
 
 using namespace cfx;
 
-class UserController : public CoreController, Controller {
+class user_controller : public CoreController, Controller {
 public:
-    UserController() : CoreController() {}
+    user_controller() : CoreController() {}
 
-    ~UserController() {}
+    ~user_controller() {}
 
     void handleGet(http_request message) override;
     void handlePut(http_request message) override;
@@ -31,4 +31,4 @@ private:
 };
 
 
-#endif //MAIN_USERCONTROLLER_H
+#endif //MAIN_USER_CONTROLLER_H

@@ -41,7 +41,7 @@ set(PostgresSQL_TYPE_INCLUDE_DIR ${PostgresSQL_INCLUDE_DIRS})
 
 add_subdirectory(${libpqxxdir})
 
-add_executable(main main.cpp core/core_controller.cpp core/network.cpp core/include/controller.h core/include/core_controller.h core/include/common.h core/include/network.h app/controllers/user/UserController.cpp app/controllers/user/UserController.h core/include/interrupt_handler.h core/include/runtime_utils.h app/services/user/user_service.cpp app/services/user/user_service.h app/models/UserModel.cpp app/models/UserModel.h core/include/logger.h)
+add_executable(main main.cpp core/core_controller.cpp core/network.cpp core/include/controller.h core/include/core_controller.h core/include/common.h core/include/network.h app/controllers/user/user_controller.cpp app/controllers/user/user_controller.h core/include/interrupt_handler.h core/include/runtime_utils.h app/services/user/user_service.cpp app/services/user/user_service.h app/models/user_model.cpp app/models/user_model.h core/include/logger.h core/logger.cpp)
 target_link_libraries(main PRIVATE cpprestsdk::cpprest)
 if (CMAKE_HOST_SYSTEM_NAME MATCHES "Darwin")
     target_link_libraries(main PRIVATE "${FWCoreFoundation}")

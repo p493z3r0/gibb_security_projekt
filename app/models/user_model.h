@@ -2,14 +2,14 @@
 // Created by Dominic Järmann on 19/01/2021.
 //
 
-#ifndef MAIN_USERMODEL_H
-#define MAIN_USERMODEL_H
+#ifndef MAIN_USER_MODEL_H
+#define MAIN_USER_MODEL_H
 
 
 #include <string>
 #include <cpprest/json.h>
 
-class UserModel {
+class user_model {
 private:
     std::string uuid;
     std::string email;
@@ -17,7 +17,7 @@ private:
     std::string name;
 
 public:
-    static UserModel *fromJson(web::json::value value);
+    static user_model *fromJson(web::json::value value);
 
 
     void set_uuid(std::string uuid) { this->uuid = uuid; }
@@ -43,4 +43,4 @@ public:
 };
 
 
-#endif //MAIN_USERMODEL_H
+#endif //MAIN_USER_MODEL_H

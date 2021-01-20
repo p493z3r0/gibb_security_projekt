@@ -8,13 +8,13 @@
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>
 #include <boost/uuid/uuid_io.hpp>
-
+#include <logger.h>
 const auto SECRET = "oiwucdoqjidiochjoiwjaiodjweoqdijowqe";
 using namespace jwt::params;
 using namespace boost::uuids;
+using namespace cfx;
 
-
-UserModel *user_service::create_user(UserModel &user) {
+user_model *user_service::create_user(user_model &user) {
     pqxx::connection *C = new pqxx::connection("postgres://postgres:1234@localhost:5433/security");
 
     pqxx::work W{*C};
@@ -27,7 +27,7 @@ UserModel *user_service::create_user(UserModel &user) {
     user.set_uuid(boost::uuids::to_string(uuid));
     pqxx::result R{W.exec(select_statement)};
     if (R.size() > 0) {
-        std::cout << "User already exists" << std::endl;
+        logger::get_instance()->log("Tried to recreate user with mail:  :" + user.get_email(), LogSeverity::Normal);
         return &user;
     }
 
@@ -39,24 +39,24 @@ UserModel *user_service::create_user(UserModel &user) {
     std::cout << statement << std::endl;
     W.exec(statement);
 
-    std::cout << "Making changes definite ";
+    logger::get_instance()->log("Created with Email :" + user.get_email(), LogSeverity::Normal);
     W.commit();
-    std::cout << "OK.\n";
 
     return &user;
 }
 
-UserModel *user_service::delete_user(UserModel &user) {
+user_model *user_service::delete_user(user_model &user) {
     return &user;
 }
 
-UserModel *user_service::update_user(UserModel &user) {
+user_model *user_service::update_user(user_model &user) {
     return &user;
 }
 
-UserModel *user_service::get_user(std::string email) {
+user_model *user_service::get_user(std::string email) {
 
 
+    logger::get_instance()->log("Get User:" + email, LogSeverity::Normal);
     pqxx::connection *C = new pqxx::connection("postgres://postgres:1234@localhost:5433/security");
 
     pqxx::work W{*C};
@@ -67,7 +67,7 @@ UserModel *user_service::get_user(std::string email) {
 
     if (result.size() == 1 && result[0].size() == 4) {
         // user found
-        const auto user = new UserModel();
+        const auto user = new user_model();
         pqxx::row const row = result[0];
 
 
@@ -82,29 +82,37 @@ UserModel *user_service::get_user(std::string email) {
     return nullptr;
 }
 
-std::string *user_service::generate_jwt(UserModel *user) {
+std::string *user_service::generate_jwt(user_model *user) {
     jwt::jwt_object obj{algorithm("HS256"), secret(SECRET), payload({{"user", user->get_email()}})};
+    logger::get_instance()->log("Generate JWT for user:  :" + user->get_email(), LogSeverity::Normal);
 
     return new std::string(obj.signature().c_str());
 }
 
-UserModel *user_service::login(std::string email, std::string password) {
+user_model *user_service::login(std::string email, std::string password) {
     const auto user = user_service::get_user(email);
     if (user == nullptr) {
+        logger::get_instance()->log("Failed login attempt with email  :" + user->get_email(), LogSeverity::Normal);
         return nullptr;
     }
 
     if (user->validate_password(password)) {
+        logger::get_instance()->log("successful login attempt with email  :" + user->get_email(), LogSeverity::Normal);
+
         return user;
     }
+
+    logger::get_instance()->log("Failed login attempt with email  :" + user->get_email(), LogSeverity::Normal);
+
     return nullptr;
 
 }
 
-UserModel *user_service::get_user_from_jwt(std::string jwt) {
+user_model *user_service::get_user_from_jwt(std::string jwt) {
     auto dec_obj = jwt::decode(jwt, algorithms({"HS256"}), secret(SECRET));
 
     const auto email = dec_obj.payload().create_json_obj().at("user");
+    // logger::get_instance()->log(&"Got email from JWT :" [ email], LogSeverity::Normal);
 
     return user_service::get_user(email);
 

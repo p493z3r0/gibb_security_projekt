@@ -24,21 +24,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fe481d7-d88a-482c-9e8f-4e1673b2e2dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/user/UserController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user/UserController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/user/UserController.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user/UserController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/UserModel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/UserModel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/user/user_controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user/user_controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/user/user_controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/user/user_controller.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user_model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user_model.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_model.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/user/user_service.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user/user_service.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user/user_service.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/user/user_service.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/models/UserModel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/models/UserModel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/models/UserModel.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/services/user/user_service.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/app/services/user/user_service.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/core/logger.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/core/logger.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/include/controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/include/controller.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/include/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/core/include/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/logger.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cpp-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpp-jwt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cpp-jwt/include/jwt/jwt.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpp-jwt/include/jwt/jwt.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cpprestsdk" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk" afterDir="false" />
@@ -46,6 +57,7 @@
       <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth2.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/include/cpprest/oauth2.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/libs/websocketpp/websocketpp/close.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/libs/websocketpp/websocketpp/close.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/cpprestsdk/Release/tests/common/TestRunner/vs14.android/TestRunner.android.Packaging/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/include/cpprestsdk/Release/tests/common/TestRunner/vs14.android/TestRunner.android.Packaging/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610997455859</updated>
-      <workItem from="1610997458158" duration="35226000" />
+      <workItem from="1610997458158" duration="40579000" />
     </task>
     <servers />
   </component>
@@ -179,11 +191,12 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3798" height="258" key="GridCell.Tab.0.bottom" timestamp="1611085632311">
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom" timestamp="1611095708557">
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
-    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611085632311" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611095708557" />
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.1025@1680.0.3840.2160" timestamp="1611084208000" />
+    <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.970@1680.0.3840.2160" timestamp="1611092978330" />
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513394" />
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570183" />
     <state width="1638" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827661" />
@@ -191,11 +204,12 @@
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611085091944" />
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543126" />
     <state width="3798" height="258" key="GridCell.Tab.0.bottom/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430252" />
-    <state width="3798" height="258" key="GridCell.Tab.0.center" timestamp="1611085632309">
+    <state width="3798" height="258" key="GridCell.Tab.0.center" timestamp="1611095708555">
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
-    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611085632309" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611095708555" />
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.1025@1680.0.3840.2160" timestamp="1611084207997" />
+    <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.970@1680.0.3840.2160" timestamp="1611092978328" />
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513392" />
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570181" />
     <state width="1638" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
@@ -203,11 +217,12 @@
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611085091941" />
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543124" />
     <state width="3798" height="258" key="GridCell.Tab.0.center/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430250" />
-    <state width="3798" height="258" key="GridCell.Tab.0.left" timestamp="1611085632308">
+    <state width="3798" height="258" key="GridCell.Tab.0.left" timestamp="1611095708553">
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
-    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611085632307" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611095708553" />
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.1025@1680.0.3840.2160" timestamp="1611084207995" />
+    <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.970@1680.0.3840.2160" timestamp="1611092978326" />
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513390" />
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570178" />
     <state width="1638" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
@@ -215,11 +230,12 @@
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611085091940" />
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.971@1680.25.3840.2135" timestamp="1611074543118" />
     <state width="3798" height="258" key="GridCell.Tab.0.left/1680.25.3840.2135/0.25.1680.972@1680.25.3840.2135" timestamp="1611077430249" />
-    <state width="3798" height="258" key="GridCell.Tab.0.right" timestamp="1611085632310">
+    <state width="3798" height="258" key="GridCell.Tab.0.right" timestamp="1611095708556">
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
-    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611085632310" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611095708556" />
     <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.1025@1680.0.3840.2160" timestamp="1611084207999" />
+    <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.970@1680.0.3840.2160" timestamp="1611092978329" />
     <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.971@1680.0.3840.2160" timestamp="1611073513393" />
     <state width="3798" height="258" key="GridCell.Tab.0.right/1680.0.3840.2160/0.25.1680.972@1680.0.3840.2160" timestamp="1611077570182" />
     <state width="1638" height="258" key="GridCell.Tab.0.right/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611058827660" />
@@ -243,10 +259,10 @@
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
     <state width="3798" height="807" key="GridCell.Tab.1.right/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611072125586" />
-    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup" timestamp="1611083430908">
+    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup" timestamp="1611095147396">
       <screen x="1680" y="0" width="3840" height="2160" />
     </state>
-    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611083430908" />
+    <state x="4014" y="521" width="670" height="684" key="search.everywhere.popup/1680.0.3840.2160/0.0.1680.1050@1680.0.3840.2160" timestamp="1611095147396" />
     <state x="4014" y="540" width="670" height="676" key="search.everywhere.popup/1680.25.3840.2135/0.25.1680.968@1680.25.3840.2135" timestamp="1611050415468" />
     <state x="4014" y="540" width="670" height="676" key="search.everywhere.popup/1680.25.3840.2135/0.25.1680.970@1680.25.3840.2135" timestamp="1611064780611" />
   </component>

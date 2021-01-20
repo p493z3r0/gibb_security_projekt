@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o"
-  "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/models/UserModel.cpp.o"
+  "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o"
+  "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/models/user_model.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/app/services/user/user_service.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/core/core_controller.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/core/core_controller.cpp.o"
   "/Users/dominicjarmann/CLionProjects/SecModulBackend/core/logger.cpp" "/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles/main.dir/core/logger.cpp.o"

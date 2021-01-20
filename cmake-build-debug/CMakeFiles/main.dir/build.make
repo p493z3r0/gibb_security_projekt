@@ -96,18 +96,18 @@ CMakeFiles/main.dir/core/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/core/network.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/core/network.cpp -o CMakeFiles/main.dir/core/network.cpp.s
 
-CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o: ../app/controllers/user/UserController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o -c /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp
+CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o: ../app/controllers/user/user_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o -c /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.cpp
 
-CMakeFiles/main.dir/app/controllers/user/UserController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/app/controllers/user/UserController.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp > CMakeFiles/main.dir/app/controllers/user/UserController.cpp.i
+CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.cpp > CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.i
 
-CMakeFiles/main.dir/app/controllers/user/UserController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/controllers/user/UserController.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp -o CMakeFiles/main.dir/app/controllers/user/UserController.cpp.s
+CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.cpp -o CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.s
 
 CMakeFiles/main.dir/app/services/user/user_service.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/app/services/user/user_service.cpp.o: ../app/services/user/user_service.cpp
@@ -122,18 +122,18 @@ CMakeFiles/main.dir/app/services/user/user_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/services/user/user_service.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.cpp -o CMakeFiles/main.dir/app/services/user/user_service.cpp.s
 
-CMakeFiles/main.dir/app/models/UserModel.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/app/models/UserModel.cpp.o: ../app/models/UserModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/app/models/UserModel.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/models/UserModel.cpp.o -c /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp
+CMakeFiles/main.dir/app/models/user_model.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/app/models/user_model.cpp.o: ../app/models/user_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dominicjarmann/CLionProjects/SecModulBackend/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/app/models/user_model.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/app/models/user_model.cpp.o -c /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.cpp
 
-CMakeFiles/main.dir/app/models/UserModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/app/models/UserModel.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp > CMakeFiles/main.dir/app/models/UserModel.cpp.i
+CMakeFiles/main.dir/app/models/user_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/app/models/user_model.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.cpp > CMakeFiles/main.dir/app/models/user_model.cpp.i
 
-CMakeFiles/main.dir/app/models/UserModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/models/UserModel.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp -o CMakeFiles/main.dir/app/models/UserModel.cpp.s
+CMakeFiles/main.dir/app/models/user_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/app/models/user_model.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.cpp -o CMakeFiles/main.dir/app/models/user_model.cpp.s
 
 CMakeFiles/main.dir/core/logger.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/core/logger.cpp.o: ../core/logger.cpp
@@ -153,9 +153,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
 "CMakeFiles/main.dir/core/core_controller.cpp.o" \
 "CMakeFiles/main.dir/core/network.cpp.o" \
-"CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o" \
+"CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o" \
 "CMakeFiles/main.dir/app/services/user/user_service.cpp.o" \
-"CMakeFiles/main.dir/app/models/UserModel.cpp.o" \
+"CMakeFiles/main.dir/app/models/user_model.cpp.o" \
 "CMakeFiles/main.dir/core/logger.cpp.o"
 
 # External object files for target main
@@ -164,9 +164,9 @@ main_EXTERNAL_OBJECTS =
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/core/core_controller.cpp.o
 main: CMakeFiles/main.dir/core/network.cpp.o
-main: CMakeFiles/main.dir/app/controllers/user/UserController.cpp.o
+main: CMakeFiles/main.dir/app/controllers/user/user_controller.cpp.o
 main: CMakeFiles/main.dir/app/services/user/user_service.cpp.o
-main: CMakeFiles/main.dir/app/models/UserModel.cpp.o
+main: CMakeFiles/main.dir/app/models/user_model.cpp.o
 main: CMakeFiles/main.dir/core/logger.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/local/lib/libcpprest.2.10.dylib

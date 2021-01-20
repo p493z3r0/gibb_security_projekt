@@ -742,16 +742,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.cpp">
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/UserController.h">
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/controllers/user/user_controller.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.cpp">
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/UserModel.h">
+		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/models/user_model.h">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/dominicjarmann/CLionProjects/SecModulBackend/app/services/user/user_service.cpp">

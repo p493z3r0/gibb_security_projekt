@@ -1,12 +1,15 @@
 #include <iostream>
-#include "app/controllers/user/UserController.h"
+#include "app/controllers/user/user_controller.h"
 #include <interrupt_handler.h>
 #include <runtime_utils.h>
+#include <logger.h>
 
 int main() {
     InterruptHandler::hookSIGINT();
 
-    UserController server;
+    logger::get_instance()->set_output_file("log.log");
+    logger::get_instance()->log("Startet application", LogSeverity::Normal);
+    user_controller server;
     server.setEndpoint("http://host_auto_ip4:6502/v1/api/user");
     try {
         // wait for server initialization...
